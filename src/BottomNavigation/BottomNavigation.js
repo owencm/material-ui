@@ -3,16 +3,16 @@
  * - Tidy up code
  * - Add correct documentation
  * - Support custom highlight colors
- * - Support custom background color on bar per selected item
+ * - Support custom highlight color per selected item
  * - Support badged icons
- * - Support only showing label for selected item
- * - Support expanding width of selected item
+ * - Support showing label only for selected item
  * - Add constraints for number of children provided
- * - Apply actual width rules
- * - Add scrolling behaviours (hiding)
+ * - Apply width rules on BottomNavigationItems
  * - Enforce appropriate label length and avoid overflows/breaks
- * - Enforce 3 to 5 items
- * - Determine how to handle larger displays (menu on left)
+ * - V2: Support custom background color on bar depending on selected item
+ * - V2: Support expanding width of selected item
+ * - V2: Add scrolling behaviours (hiding)
+ * - V2: Determine how to handle larger displays (menu on left)
  */
 
 import React from 'react';
