@@ -292,6 +292,7 @@ class EnhancedButton extends React.Component {
     const mergedStyles = Object.assign({
       border: 10,
       background: 'none',
+      padding: 0,
       boxSizing: 'border-box',
       display: 'inline-block',
       fontFamily: this.context.muiTheme.baseTheme.fontFamily,

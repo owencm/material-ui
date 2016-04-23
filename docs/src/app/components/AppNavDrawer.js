@@ -174,6 +174,7 @@ const AppNavDrawer = React.createClass({
               <ListItem primaryText="Auto Complete" value="/components/auto-complete" />,
               <ListItem primaryText="Avatar" value="/components/avatar" />,
               <ListItem primaryText="Badge" value="/components/badge" />,
+              <ListItem primaryText="Bottom Navigation" value="/components/bottom-navigation" />,
               <ListItem
                 primaryText="Buttons"
                 primaryTogglesNestedList={true}

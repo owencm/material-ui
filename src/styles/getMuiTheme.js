@@ -61,6 +61,15 @@ export default function getMuiTheme(muiTheme, ...more) {
       secondaryTextColor: palette.alternateTextColor,
       fontWeight: typography.fontWeightMedium,
     },
+    bottomNavigation: {
+      backgroundColor: white,
+      height: spacing.desktopKeylineIncrement,
+      unselectedColor: grey600,
+      selectedColor: palette.primary1Color,
+      height: 56,
+      unselectedFontSize: 12,
+      selectedFontSize: 14,
+    },
     button: {
       height: 36,
       minWidth: 88,
